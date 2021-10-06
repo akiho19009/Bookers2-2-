@@ -46,7 +46,7 @@
           <% end %>
       </table>
       <div class="new-comment">
-        <!--<%= form_with(model:[@book_comment], local: true) do |f| %>-->
+        <!--<%= form_with(model:[@book, @book_comment], local: true) do |f| %>-->
           <%= f.text_area :comment, size: "80x5" %><br>
           <%= f.submit "送信" %>
         <% end %>
